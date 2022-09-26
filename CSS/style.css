@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    padding: 25px;
+}
+.button {
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.button:hover {
+    background-color: #b0b8b0;
+    cursor: pointer;
+}
+.button--success {
+    background-color: #26ae19;
+    color: #fff;
+}
+.button--success:hover {
+    background-color: #289816;
+    transition: 1s;
+}
+.button--warning {
+    background-color: #a6ae19;
+    color: #fff;
+}
+.button--warning:hover {
+    background-color: #908616;
+    transition: 1s;
+}
+.button--danger {
+    background-color: #ed612a;
+    color: #fff;
+}
+.button--danger:hover {
+    background-color: #ca6015;
+    transition: 1s;
+}
+.button--primary {
+    background-color: #4343e8;
+    color: #fff;
+}
+.button--primary:hover {
+    background-color: #6060b4;
+    transition: 1s;
+}
+.button--big {
+    width: 190px;
+    height: 50px;
+    font-size: 19px;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.form-group, .form-group__label--error::after {
+    content: " \2717";
+}
+.form-group, .form-group__label--success::after {
+    content: " \270C";
+}
+
+.form-group__label{
+    display: block;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+.form-group__label--error{
+    color: #cd4242;
+}
+.form-group__label--success{
+    color: #26ae19;
+}
+.form-group__input {
+    width: 100%;
+    border: 1px solid #aeaeae;
+    height: 35px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.form-group__input--error {
+    color: #cd4242;
+}
+.form-group__input--success {
+    color: #26ae19;
+}
